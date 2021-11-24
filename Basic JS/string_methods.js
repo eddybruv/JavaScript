@@ -45,5 +45,9 @@ console.log(str);
 
 //converting a string into an array
 str = "a, b, v, c, e, e, w, r, t";
-var arr = str.split(",");
+var arr = str.split(","); //split on commas
+/**
+ * txt.split(" ") -> split on spaces
+ * txt.split("")  -> split characters
+ */
 console.log(arr);
