@@ -31,5 +31,19 @@ str = "Hello World!";
 console.log(str);
 str = str.toUpperCase();
 console.log(str);
-str = str.toLowercase();
+str = str.toLowerCase();
 console.log(str + "\n");
+
+//string concat method
+var text = "Hello".concat(" ", "World", " And you Eddy\n");
+console.log(text);
+
+//string trim
+str = "           Hello World            \n";
+str = str.trim();
+console.log(str);
+
+//converting a string into an array
+str = "a, b, v, c, e, e, w, r, t";
+var arr = str.split(",");
+console.log(arr);
