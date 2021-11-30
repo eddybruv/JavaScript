@@ -5,7 +5,7 @@
 var numbers = [45, 3, 2, 32, 5, 421, 55];
 
 /**
- * forEach(), filter(), map(), every(), some(), find:
+ * forEach(), filter(), map(), every(), some(), find(), findIndex():
  * they are all call back functions with 3 parameters/arguments:
  *      value: element
  *      index: element position
