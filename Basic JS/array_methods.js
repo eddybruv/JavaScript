@@ -64,3 +64,40 @@ fruits.push("Kiwi");
  * returns removed element as string.
  * unshift() does the opposite of shift()
  */
+
+/**
+ * Splicing an array.
+ * splice() method.
+ * prototype: .splice(int(position to add), int(number of elements to remove), elements to add)
+ * returns an array with deleted items
+ */
+
+fruits.splice(2, 0, "Grape", "Oranges");
+fruits.splice(0, 1); //removes first element of the list without leaving holes.
+fruits.splice(1, 2); //removes elements at index 1 & 2 in the array
+
+/**
+ * concat():
+ * creates a new array by merging/concatenating existing arrays.
+ * this method doesn't change the contents of the arrays
+ * concat() can also take any number of arguments
+ */
+
+var myGirls = ["Cecilia", "Lone"];
+var myBoys = ["Emil", "Tobias", "Linus"];
+var myChildren = myGirls.concat(myBoys); // Concatenates (joins) myGirls and myBoys 
+
+/**
+ * slice():
+ * slices out a piece of an array into a new array and
+ * creates a new array with elements starting from the array element index => fruits.slice(3)
+ * 
+ * slice() can take two arguments like slice(4, 8)
+ * It selects elements from the start argument and up to the end argument.
+ */
+
+fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+var citrus = fruits.slice(3);
+
+var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+var citrus = fruits.slice(1, 4);
