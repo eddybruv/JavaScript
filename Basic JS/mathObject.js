@@ -5,5 +5,5 @@
 
 //Math Properties
 console.log(Math.PI) //returns PI
-console.log(Math.E) //returns Eulers Number
+console.log(Math.E) //returns Euler's Number
 console.log(Math.SQRT2) //returns the square root of 2
