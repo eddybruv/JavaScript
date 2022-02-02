@@ -21,3 +21,4 @@ function Bird() {
  * might
  */
 
+let blueBird = new Bird();
