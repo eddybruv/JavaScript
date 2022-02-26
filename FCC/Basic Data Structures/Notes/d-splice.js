@@ -4,7 +4,7 @@
  */
 
 let array = ["today", "was", "not", "so", "great"];
-array.splice(2, 2);
+console.log(array.splice(2, 2));
 /**
  * args:
  * first --> starting index
